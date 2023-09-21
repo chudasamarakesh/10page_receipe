@@ -83,3 +83,402 @@ main {
 footer {
     text-align: center;
 }
+
+
+
+
+/*p4.html*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color:#333333b3;
+    color: #FBFBFB;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#my_logo {
+    height: 55px;
+}
+
+#logo {
+    padding: 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: 'Courgette', cursive;
+    font-size: 1.8rem;
+    display: flex;
+}
+
+a:link,
+a:visited {
+    color: #FBFBFB;
+    text-decoration: none;
+}
+
+#links {
+    padding: 35px;
+    display: flex;
+    gap: 65px;
+    font-family: 'Courgette', cursive;
+    font-size: 1.4rem;
+}
+
+#logo_text {
+    margin-top: 10px;
+    font-size: 2rem;
+    align-items: center;
+}
+
+#logo_text:hover {
+    color: #EA3D3D;
+}
+
+a:hover {
+    color: #EA3D3D;
+}
+#not
+{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 3rem;
+    color:black;
+    font-style:inherit;
+}
+#section2
+{
+    height: 70px;
+    
+}
+
+#sec2_heading
+{
+    padding-top: 400px;
+    padding-left: 370px;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 1px 1px 2px pink;
+}
+
+#sec2_div1
+{
+    display: flex;
+    margin: 50px;
+    gap: 300px;
+    margin-left: 150px;
+}
+.round-image
+{
+    border-radius: 60%; /* This makes the image round */
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    object-fit: cover; /* Preserve aspect ratio and cover the container */
+}
+
+#banner_div {
+    background-image: url('../10page_receipe/images/g.k.jpg');
+    height: 745px;
+    width: 100%;
+    background-color: #EA3D3D;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.about_image {
+    height: 10%;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#about_image_container {
+    width: 550px;
+    margin-left: 35px;
+}
+.yes
+{
+    color: #333;
+    
+}
+.mint
+{
+    color: #333;
+}
+.no_more
+{
+    padding-bottom: 700px;
+}
+
+#about_us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 40px;
+   
+    background-size: 550px 400px;
+}
+
+#about_text {
+    font-size: 1.1rem;
+
+}
+.d1
+{
+    border: 5px rgb(178, 100, 32) solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 230px;
+}
+#turn
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 400px;
+    padding-top: 10px;
+}
+
+.contact-card {
+    background-color: #c8a0a0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    background-color:rgb(155, 126, 155);
+    animation: nav 1s infinite;
+}
+    @keyframes nav
+{
+    0%{color: red;}
+    30%{color:pink ;}
+    50%{color: #fc8704;}
+    75%{color: #42bfeb;}
+    100%{color: green;}
+}
+
+
+
+.contact-card h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.contact-card p {
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#contact_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 35px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+#nav1_p1
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 30px;
+    padding-left: 650px;
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+    color: rgb(184, 110, 110);
+  text-shadow: 2px 2px 4px #000000;
+}
+.defination
+{
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.defination>img
+{
+    border-radius: 525px;
+}
+
+.heading_laste
+{
+ margin-top: 300px;   
+ border: 2px solid black;
+ padding-left: 120px;
+ margin-bottom: 190px;
+ margin-left: 40px;
+ margin-right: 140px;
+ background-color: #75cc7f;
+ color: #cd5221;
+}
+
+/*day 4*/
+
+@import url('https://fonts.googleapis.com/css2?family=gloria+hallelujah&display=swap');
+body
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#bgrnd
+{
+height: 753px;
+width: 100%;
+filter: hue-rotate(-30deg) blur(10px);
+}
+.container
+{
+    height: 70vh;
+    width: 40vw;
+    position: fixed;left: 30%;
+    top: 10%;
+    opacity: 0.97;
+    border-radius: 20px;
+    border: 10px solid rgb(241,220,225);
+    overflow: hidden;
+    background-color: rgb(197,153,255);
+}
+.border
+{
+    height: 50vh;
+    width: 30vh;
+    position: relative;
+    left: 10%;
+    top: 7%;
+    border-radius: 0px;
+    border: 6px solid black;
+    transform: rotatez(-10deg);
+    background-color: rgb(70,26,12);
+    overflow: hidden;
+}
+.branding
+{
+    font-size: 14px;
+    font-family: 'great vibes',cursive;
+    position: relative;
+    left: 20%;
+    top: 30%;
+    font-weight: 900;
+    transform: rotatez(-30deg);
+    background-image: url(../10page_receipe/images/kirti23.jpg);
+}
+.headi1
+{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #dc4a4a;
+    border: 2px solid black;
+}
+#days_9
+{
+    background-color:#b89f8c;
+    height: 750px;
+    margin-top: 50px;
+}
+#main_div
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+.all_div
+{
+    background-color: #5d76bc;
+    padding: 40px;
+    border-radius: 15px;
+}
+.all_div>div>img
+{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.all_div>div>p
+{
+    padding-top: 20px;
+    font-size: 1rem;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+
+.button1111
+{
+
+/* CSS */
+.button-91 {
+  color: #fff;
+  padding: 15px 25px;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+}
+
+
+.button12
+{
+
+/* CSS */
+.button-91 {
+  color: #fff;
+  padding: 15px 25px;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

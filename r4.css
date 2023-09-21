@@ -1,0 +1,484 @@
+.nav1_back
+{
+    height: 400px;
+    background-color: #FCE38A;
+}
+#nav1_p1
+{
+    font-family: 'Anton', sans-serif;
+    padding-top: 50px;
+    padding-left: 650px;
+    font-size: 2.5rem;
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+#nav1_p2
+{
+    font-family: 'Anton', sans-serif;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-size: 1.1rem;
+}
+#nav1_p3
+{
+    font-family: 'Anton', sans-serif;
+    padding-left: 50px;
+    font-size: 1.5rem;
+    padding-right: 90px;
+}
+#nav1_p4
+{
+    padding-left: 50px;
+    padding-right: 90px;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav2_div
+{
+    background-color: #F8E8EE;
+    height: 800px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.nav2_img
+{
+    height: 210px;
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.nav2_p1
+{
+    margin-top: 50px;
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    padding-left: 20px;
+}
+.nav2_div2
+{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.nav3_div
+{
+    height: 280px;
+    background-color: #E3B7A0;
+    padding-top: 20px;
+}
+#nav3_div2
+{
+    font-family: 'Anton', sans-serif;
+}
+.nav3_div3
+{
+    background-color: #BF9270;
+}
+#nav4_div1
+{
+    height: 100px;
+    background-color: BF9270;
+    padding-top: 30px;
+    padding-top: 20px;
+    padding-left: 250px;
+    display: flex;
+}
+#nav4_p
+{
+    font-size: 2.5rem;
+    font-family: 'Nova Mono', monospace;
+    margin-top: 20px;
+}
+#div4_img
+{
+    width: 70px;
+    height: 70px;
+}
+#nav4_div
+{
+    padding-left: 350px;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+
+/* CSS */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+
+/*day 5*/
+
+
+.nagative
+{
+    border: 2px solid black;
+    background-color: #E3B7A0;
+    font-style: italic;
+}
+#bgg_img
+{
+    height: 700px;
+    background-image: url('../10page_receipe/images/danny-howe-bn-D2bCvpik-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title
+{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+.title h1
+{
+    color: #fff;
+    font-size: 70px;
+   
+
+}
+
+.d11
+{
+    border: 5px rgb(178, 100, 32) solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 230px;
+}
+#turnn
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 400px;
+    padding-top: 10px;
+}
+.level
+{
+    border: 2px solid black;
+    background-color: rgb(137, 203, 151);
+}
+.lovel
+{
+    background-color: #e0c5b1;
+    padding-bottom: 80px;
+}
+
+
+
+/*day6*/
+#bgg_imgg
+{
+    height: 700px;
+    background-image: url('../10page_receipe/images/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.r_20
+{
+    border: 2px ridge black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #BF9270;
+}
+
+
+.aboutt_navratri
+{
+    font-size: 3rem;
+    padding-top: 30px;
+    text-shadow: 3px 3px 2px rgba(128, 0, 0, 1);
+}
+
+#offerr_div
+{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 40px;
+
+}
+
+.offerr_div1
+{
+    display: flex;
+    background-color: #c08546;
+    padding: 20px;
+    gap: 30px;
+    font-size: 1.3rem;
+    width: 100%;
+    font-family: 'Red Rose', cursive;
+    color: black;
+    border-radius: 30px;
+}
+.offerr_div1>p
+{
+    margin-top: 20px;
+}
+.col
+{
+    background-color: #F8E8EE;
+    padding-bottom: 20px;
+}
+
+
+/*day 8*/
+
+
+.nobody
+{
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(225, 225, 146);
+}
+.total
+{
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 40px;
+    background-color: #BF9270;
+}
+.topp
+{
+    padding-right: 140px;
+}
+.bg_col
+{
+    background-color: #BF9270;
+}
+
+
+.totall
+{
+    border: 2px solid black;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 40px;
+    background-color: #84dea2;
+    padding-right: 10px;
+}
+.toppp
+{
+    padding-right: 140px;
+}
+.perfect
+{
+    background-color: #a8cad4;
+    padding-top: 10px;
+}
+.totalll
+{
+    border: 2px solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-left: 40px;
+    background-color: #d29bb6;
+}
+.topppp
+{
+    padding-right: 140px;
+}
+.totallll
+{
+    border: 2px solid black;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-left: 40px;
+    background-color: #7bbcd0;
+    padding-right: 10px;
+}
+.toppppp
+{
+    padding-right: 140px;
+}
+.totalllll
+{
+    border: 2px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-left: 40px;
+    background-color: #e08268;
+}
+.topppppp
+{
+    padding-right: 140px;
+}
+
+.button112
+{
+
+/* CSS */
+.button-91 {
+  color: #fff;
+  padding: 15px 25px;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+}
+
+.button11222
+{
+
+/* CSS */
+.button-91 {
+  color: #fff;
+  padding: 15px 25px;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+}
+
+.button13
+{
+
+/* CSS */
+.button-91 {
+  color: #fff;
+  padding: 15px 25px;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+}
+.button142
+{
+
+/* CSS */
+.button-91 {
+  color: #fff;
+  padding: 15px 25px;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+}
+
+
+.button65
+{
+
+/* CSS */
+.button-91 {
+  color: #fff;
+  padding: 15px 25px;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+}
+
+
+
+
+
+
+
+
+

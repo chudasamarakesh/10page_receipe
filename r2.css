@@ -230,3 +230,218 @@
     margin-top: 350px;
 
 }
+
+/*day7*/
+
+.well1
+{
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #57d773;
+}
+.well2
+{
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #a9a6e5;
+}
+.well3
+{
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #e3b15c;
+}
+.well4
+{
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #b54283;
+}
+.tel
+{
+    background-color: #c4f3ce;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+#d3_sec2
+{
+    background-color: #a45571;
+    height: 500px;
+    width: 80%;
+    margin-left: 150px;
+    
+    display: flex;
+    gap: 80px;
+    
+}
+
+#d3_sec2_div2
+{
+    background-color:#7672cf;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 270px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.2rem;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+
+
+
+
+/*day 9*/
+.mid
+{
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #adaae7;
+}
+
+.bgg
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+   background-color: rgb(233, 44, 82);
+   background-image:url(../10page_receipe/images/pexels-luis-quintero-3101520.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-top: 10px;
+    font-size: 3rem;
+}
+.bggg
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+   background-color: rgb(233, 44, 82);
+   background-image:url(../10page_receipe/images/pexels-harrison-haines-3172566.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-top: 10px;
+    font-size: 3rem;
+}
+.bgggg
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+   background-color: rgb(233, 44, 82);
+   background-image:url(../10page_receipe/images/pexels-matteo-petralli-1772873.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-top: 10px;
+    font-size: 3rem;
+}
+.bggggg
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+   background-color: rgb(233, 44, 82);
+   background-image:url(../10page_receipe/images/pexels-mali-maeder-219101.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-top: 10px;
+    font-size: 3rem;
+}
+.limit
+{
+    background-color: antiquewhite;
+    padding-top: 10px;
+}
+.button1
+{
+
+/* CSS */
+.button-91 {
+  color: #fff;
+  padding: 15px 25px;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+}
+
+
+
+
+
+
+
+.button11
+{
+
+/* CSS */
+.button-91 {
+  color: #fff;
+  padding: 15px 25px;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+}
+
+
+.button112222
+{
+
+/* CSS */
+.button-91 {
+  color: #fff;
+  padding: 15px 25px;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+}
